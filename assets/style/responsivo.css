@@ -1,0 +1,154 @@
+/* ////////////////////////// Celular ////////////////////////// */
+
+@media only screen and (max-width: 767px) {
+   .header {
+      position: relative;
+      padding-bottom: 0px;
+   }
+
+   .header img {
+      margin: 0 auto 10px auto;
+      width: 100px;
+   }
+
+   .header_menu {
+      text-align: center;
+   }
+
+   .header_menu ul li {
+      margin: 5px;
+   }
+
+   .header_menu ul li a:hover {
+      color: #fff;
+   }
+
+   /* .introducao {
+       margin-top: -50px;
+   } */
+
+   /*  ---------- Index ----------- */
+
+   .introducao h2 {
+      font-size: 19px;
+      margin-top: 0px;
+      padding-left: 0px;
+   }
+
+   .frase {
+      border: 1px solid red;
+      width: 0px;
+      margin-left: 15%;
+   }
+
+   /* .frase h1 {
+      margin-left: 10%;
+   } */
+
+   /*  --------- Serviços --------- */
+
+   .produto_item {
+      padding-left: 0px;
+   }
+
+   /* .produto_item {
+      background: blueviolet
+   } */
+
+   .produto_info ul li {
+      width: 100%;
+   }
+
+   .interna_servico h1 {
+      border: 1px solid red;
+      margin-bottom: 0px;
+   }
+
+   /*  ---------- Contato ----------- */
+
+   .contato_form {
+      width: 100%;
+   }
+
+   /*  ---------- Quem Somos ----------- */
+
+   .quem-somos li img {
+      width: 300px;
+   }
+
+   div.icon-redes img {
+      width: 30px;
+   }
+
+   /*  ---------- Footer ----------- */
+
+   .copy p {
+      padding: 0px;
+      margin: 0px;
+   }
+}
+
+/* ////////////////////////// Tablet ////////////////////////// */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   /*  ---------- Header ----------- */
+
+   .header {
+      position: relative;
+      margin-bottom: 0px;
+   }
+
+   .header img {
+      margin: 0 auto 10px auto;
+      width: 100px;
+   }
+
+   .header_menu {
+      text-align: center;
+   }
+
+   .header_menu ul li {
+      margin: 5px;
+   }
+
+   /*  ---------- Index ----------- */
+
+   .introducao h2 {
+      font-size: 19px;
+      margin-top: 0px;
+      padding-left: 0px;
+   }
+
+   .frase {
+      margin-left: 35%;
+   }
+
+   .produtos_lista li img {
+      width: 236px;
+   }
+
+   /*  ---------- Footer ----------- */
+
+   .introducao-interna {
+      width: 100%;
+      margin-top: 0px;
+   }
+
+   .footer_redes ul img {
+      width: 25px;
+      height: 25px;
+   }
+}
+
+/* ////////////////////////// Desktop ////////////////////////// */
+
+@media only screen and (min-width: 960px) and (max-width: 2316px) {
+   .introducao {
+      margin-top: 74px;
+   }
+
+   .introducao-interna {
+      width: 100%;
+      margin-top: 74px;
+   }
+}

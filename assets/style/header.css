@@ -1,0 +1,90 @@
+
+/* --------------------------- HEADER  ---------------------------- */
+
+:root {
+
+    /*----------- cor principal -------------*/
+    /* main: #F11348; */
+    /* main: #FE3F3E; */
+    /* secondary: #cf0f0f; */
+    /* secondary: #15161C; */
+    /* secondary: #e00b0b; */
+
+
+    --main: #FE3433;
+    --secondary: #15161C;
+    
+
+    /*----------- cor principal -------------*/
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main);
+    padding: 15px 0;
+    z-index: 10;
+    /* proporção usada no site de Udemy */
+    /* box-shadow:0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08); */
+
+    box-shadow:0 2px 4px rgba(0,0,0, .3),0 4px 12px rgba(0,0,0,.08);
+
+}
+
+
+/* .barraTopo > img {
+    width: 15%;
+    height: 100%;
+}  */
+
+
+/* ---------------- Logo Marca ------------ */
+
+
+.logo {
+    width: 120px;
+    display: flex;
+}
+
+/* .logo {
+    background-color: #fff;
+    padding: 5px;
+} */
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+
+
+/*  ----------  Texto Menu navegação ----------   */
+
+.header_menu {
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+.header_menu ul li  {
+    display: inline-block;
+    margin-left: 25px;
+    margin: top 20px;
+}
+
+.header_menu ul li a {
+    color: var(--secondary);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #fff;
+}
+
+

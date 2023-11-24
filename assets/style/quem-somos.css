@@ -1,0 +1,84 @@
+.menu .active-page {
+    color: #fff;
+}
+
+
+.interna_quem_somos {
+    background-image: url('../img/bg/bg-code.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* ------------ (Sobrescrita) Introdução Interna ---------------- */
+
+.introducao-interna {
+    color: #fff;
+}
+
+.introducao-interna h1:after {
+    background: #fff;
+}
+
+/* .separadores {
+    float: none;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    text-transform: uppercase;
+} */
+
+.quem-somos {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.quem-somos li {
+    background-color: var(--secondary);
+    padding-bottom: 10px;
+}
+
+.quem-somos li img {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.quem-somos li:hover {
+    transform: scale(1.1);   
+    transition: transform .5s ease;
+}
+
+.quem-somos li h1 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+
+.quem-somos li h2 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.quem-somos li h1:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 5px auto;
+}
+
+div.icon-redes img {
+    width: 30px;
+    margin: 5px 5px;
+}

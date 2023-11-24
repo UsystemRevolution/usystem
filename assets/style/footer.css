@@ -1,0 +1,77 @@
+
+/*  -------------------- FOOTER ----------------------- */
+
+.footer {
+    width: 100%;
+    background-color: var(--secondary);
+    color: #fff;
+    padding: 20px 0; 
+}
+
+.footer h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    list-style: 25px;
+    color: var(--main);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    /* font-weight: bold; */
+}
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: var(--main);
+	margin: 6px 0 12px 0;
+}
+
+
+.footer_historia {
+	padding-right: 40px;
+}
+
+
+/*  ----------- FOOTER Contato -------------- */
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/*  ----------- FOOTER Redes -------------- */
+
+.footer_redes img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer_redes ul li { 
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid var(--main);
+    display: block;
+    padding: 5px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #fff;
+    transform: scale(1.05);
+} 
+
+
+/*  ----------- FOOTER Copy -------------- */
+
+.copy {
+    width: 100%;
+    background-color: var(--main);
+    padding: 8px 0;
+    text-align: center;
+    color: white;
+}
